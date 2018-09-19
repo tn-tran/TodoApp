@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--MY LIST-->
+        <!--To Do-->
         <scene sceneID="SI7-sY-6c7">
             <objects>
                 <tableViewController id="sog-Nc-5gq" customClass="TodoTableViewController" customModule="TodoApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -51,7 +51,7 @@
                             <outlet property="delegate" destination="sog-Nc-5gq" id="Jyz-Bd-aJu"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="MY LIST" id="8QZ-94-JZc"/>
+                    <navigationItem key="navigationItem" title="To Do" id="8QZ-94-JZc"/>
                     <connections>
                         <outlet property="progressBar" destination="0vQ-7i-Qp4" id="GLB-me-9M7"/>
                     </connections>
@@ -153,10 +153,10 @@
     </scenes>
     <resources>
         <namedColor name="mainBlueColor">
-            <color red="0.0" green="0.82745098039215681" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.25882352941176473" green="0.46666666666666667" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="mainYellowColor">
-            <color red="1" green="0.74901960784313726" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
