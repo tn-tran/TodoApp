@@ -8,3 +8,4 @@ Practices on:
 - Custom delegates/ UITableViewCells
 - MultipeerConnectivity Framework
 - Sketch designs
+- Animations
