@@ -29,7 +29,7 @@ class ContainerViewController: UIViewController {
 			todoTableViewController = (segue.destination as! UINavigationController).children.first as? TodoTableViewController
 			todoTableViewController.connectionButtonReference = connectionButton
 			
-			
+			//test
 		}
 	}
 
