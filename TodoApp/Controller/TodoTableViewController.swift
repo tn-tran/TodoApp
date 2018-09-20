@@ -11,6 +11,7 @@ import MultipeerConnectivity
 
 class TodoTableViewController: UITableViewController, MCSessionDelegate, MCBrowserViewControllerDelegate {
 	var todoItems: [TodoItem]! {
+		// comments
 		didSet {
 			progressBar.setProgress(progress, animated: true)
 		}
