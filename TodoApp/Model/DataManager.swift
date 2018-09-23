@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+//
 public class DataManager {
 	
 	// get Documentary Directory
